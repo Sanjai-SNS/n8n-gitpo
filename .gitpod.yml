@@ -1,0 +1,6 @@
+tasks:
+  - name: Start n8n
+    init: |
+      npm install -g n8n
+    command: |
+      n8n start --tunnel
